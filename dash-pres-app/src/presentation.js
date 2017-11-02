@@ -11,12 +11,8 @@ import { theme } from "./slides/theme";
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
 
-const slidesImports = [
-  import("./slides/0"),
-  import("./slides/1"),
-  import("./slides/2"),
-  import("./slides/3")
-];
+const numSlides = 6;
+const slidesImports = Array.from(Array(numSlides).keys()).map(key => import(`./slides/${key}`));
 
 export default class Presentation extends React.Component {
   constructor(props) {
