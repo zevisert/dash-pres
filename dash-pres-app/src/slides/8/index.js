@@ -62,7 +62,7 @@ export default (
           <SegmentURL media="seg.m4s"
             range="1000-1499" />
           ...
-          <SegmentURL media="seg_291.m4s"
+          <SegmentURL media="seg.m4s"
             range="6839000-6839499"/>
         </SegmentList>
 
