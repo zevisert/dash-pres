@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "spectacle-code-slide": "^0.5.1",
     "spectacle-scripts": "1.0.15"
   },
   "scripts": {
@@ -12,5 +13,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "raw-loader": "^0.5.1"
   }
 }

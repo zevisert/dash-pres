@@ -13,8 +13,11 @@ export default (
         <Heading size={1} fit caps lineHeight={1} >
             MPEG-Dash
         </Heading>
-        <Text margin="10px 0 0" textColor="quartenary" size={1} fit bold italic>
+        <Text margin="10px 0 0 0" textColor="quartenary" size={1} fit bold italic>
             Moving Picture Experts Group - Dynamic Adaptive Streaming over HTTP
+        </Text>
+        <Text textColor="quinary" padding="10em 0 0 0">
+            https://dash.nyc3.digitaloceanspaces.com/
         </Text>
     </Slide>
 );
