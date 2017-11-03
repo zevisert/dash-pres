@@ -13,7 +13,7 @@ import {
 } from "spectacle";
 
 export default (
-    <Slide transition={["slide"]} bgColor="secondary" textColor="primary"
+    <Slide transition={["slide"]} bgColor="white" textColor="secondary"
     notes={(
         <ul>
             <li>For times sake, don't go too deep into each item, maybe one sentence each</li>
@@ -27,7 +27,7 @@ export default (
     )}>
         <Layout>
             <Fill>
-                <Heading size={3} textColor="primary" textAlign="Left">Outline</Heading>
+                <Heading size={3} textColor="secondary" textAlign="Left">Outline</Heading>
                 <List>
                     <ListItem>State of the Industry</ListItem>
                     <ListItem>Adaptive Streaming</ListItem>

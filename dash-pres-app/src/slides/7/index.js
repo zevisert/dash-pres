@@ -5,8 +5,7 @@ import React from "react";
 import {
     Heading,
     Slide,
-    Image,
-    CodePane
+    Image
 } from "spectacle";
 
 export default (
