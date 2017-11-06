@@ -16,7 +16,7 @@ export default (
         </ul>
     )}>
         <Heading size={3} caps textColor="primary" margin="-1em 0 0 0">Adaptive Streaming</Heading>
-        <Image width="100%" src="/multi-bitrate-encoding.png"></Image>
+        <Image width="100%" src="multi-bitrate-encoding.png"></Image>
     </Slide>
 );
 

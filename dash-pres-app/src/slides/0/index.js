@@ -17,7 +17,7 @@ export default (
             Moving Picture Experts Group - Dynamic Adaptive Streaming over HTTP
         </Text>
         <Text textColor="quinary" padding="10em 0 0 0">
-            https://dashpres.nyc3.digitaloceanspaces.com/
+            https://www.engr.uvic.ca/~zevisert/dashpres/
         </Text>
     </Slide>
 );

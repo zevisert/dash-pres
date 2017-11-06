@@ -23,8 +23,8 @@ export default (
     )}>
         <Heading size={3} textColor="primary" caps>Cost of Viewing</Heading>
         <Text textColor="primary">Idea: Allow the user to specify how much money to spend to watch a video.</Text>
-        <Appear><Image src="/cost-formula-pre.png"/></Appear>
-        <Appear><Image src="/cost-formula.png"/></Appear>
+        <Appear><Image src="cost-formula-pre.PNG"/></Appear>
+        <Appear><Image src="cost-formula.PNG"/></Appear>
     </Slide>
 );
 

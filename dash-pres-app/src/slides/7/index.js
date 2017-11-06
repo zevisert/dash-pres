@@ -21,7 +21,7 @@ export default (
         )}
     >
         <Heading size={3} caps textColor="primary" margin="-1em 0 0 0">MPEG DASH Data Model</Heading>
-        <Image width="100%" src="/dash-data-model.png"></Image>
+        <Image width="100%" src="dash-data-model.png"></Image>
     </Slide>
 );
 

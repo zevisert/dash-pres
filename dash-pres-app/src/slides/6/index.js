@@ -30,8 +30,8 @@ class Interactive extends React.Component {
             <div onClick={this.handleClick}>
             {
                 this.state.toggled ? 
-                <Image width="100%" src="/dash-components-specified.png"/> :
-                <Image width="100%" src="/dash-components.png"/>
+                <Image width="100%" src="dash-components-specified.png"/> :
+                <Image width="100%" src="dash-components.png"/>
             }
             </div>
         );

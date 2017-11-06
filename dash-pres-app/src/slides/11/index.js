@@ -22,7 +22,7 @@ export default (
     )}>
         <Heading size={3} textColor="primary" caps fit>Adaptation Logic</Heading>
         <Text textColor="primary">What about optimizing for both cost and quality?</Text>
-        <Appear><Image src="/bw-formula.PNG"></Image></Appear>
+        <Appear><Image src="bw-formula.PNG"></Image></Appear>
     </Slide>
 );
 

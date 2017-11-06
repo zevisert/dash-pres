@@ -24,7 +24,7 @@ export default (
         <Layout>
             <Appear>
             <Fill>
-                <Image padding="1em" src="/adaptive-streaming-server.PNG" width="100%"></Image>
+                <Image padding="1em" src="adaptive-streaming-server.PNG" width="100%"></Image>
                 <div style={{border: "solid", margin: "0.5em"}}>
                     <Heading textColor="primary" size={5}>Server</Heading>
                     <Text textSize="1.1rem" textColor="primary">HTTP Server with multiple encodings of content</Text>
@@ -32,7 +32,7 @@ export default (
             </Fill>
             </Appear><Appear>
             <Fill>
-                <Image padding="1em" src="/adaptive-streaming-bandwidth.PNG" width="100%"></Image>
+                <Image padding="1em" src="adaptive-streaming-bandwidth.PNG" width="100%"></Image>
                 <div style={{border: "solid", margin: "0.5em"}}>
                     <Heading textColor="primary" size={5}>Network</Heading>
                     <Text textSize="1.1rem" textColor="primary">Internet network prone to bandwidth fluctuations</Text>
@@ -40,7 +40,7 @@ export default (
             </Fill>
             </Appear><Appear>
             <Fill>
-                <Image padding="1em" src="/adaptive-streaming-client.PNG" width="100%"></Image>
+                <Image padding="1em" src="adaptive-streaming-client.PNG" width="100%"></Image>
                 <div style={{border: "solid", margin: "0.5em"}}>
                     <Heading textColor="primary" size={5}>Client</Heading>
                     <Text textSize="1.1rem" textColor="primary">Client player requests highest bitrate content</Text>

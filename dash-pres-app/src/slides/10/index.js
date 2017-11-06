@@ -31,7 +31,7 @@ class Interactive extends React.Component {
             case 0:
                 return (
                     <div>
-                    <Image width="100%" src="/adaptation-bitrate-2s.PNG"/>
+                    <Image width="100%" src="adaptation-bitrate-2s.PNG"/>
                     <Text textColor="secondary" textSize="normal">
                         Bandwidth Adaptation with 2s segment size for (a) DASH-JS, (b) FESTIVE, (c) Instant, (d) Liu,
                         (e) Miller, (f) OSMF, (g) PANDA, (h) QDASH, (i) Thang, (j) Tian-Liu
@@ -41,7 +41,7 @@ class Interactive extends React.Component {
             case 1:
                 return (
                     <div>
-                    <Image width="100%" src="/adaptation-bitrate-10s.PNG"/>
+                    <Image width="100%" src="adaptation-bitrate-10s.PNG"/>
                     <Text textColor="secondary" textSize="normal">
                         Bandwidth Adaptation with 10s segment size for (a) DASH-JS, (b) FESTIVE, (c) Instant, (d) Liu,
                         (e) Miller, (f) OSMF, (g) PANDA, (h) QDASH, (i) Thang, (j) Tian-Liu
@@ -51,7 +51,7 @@ class Interactive extends React.Component {
             case 2:
                 return (
                     <div>
-                    <Image width="100%" src="/adaptation-buffer.PNG"/>
+                    <Image width="100%" src="adaptation-buffer.PNG"/>
                     <Text textColor="secondary" textSize="normal">
                         Buffer level for 2s and 10s segment size: (a, k) DASH-JS, (b, l) FESTIVE, (c, m) Instant, (d, n) Liu,
                         (e, o) Miller, (f, p) OSMF, (g, q) PANDA, (h, r) QDASH, (i, s) Thang, (j, t) Tian-Liu
